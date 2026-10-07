@@ -16,3 +16,23 @@ So, back to the hunt I went. It only took about ten minutes this time to find th
 Next time, I will touch up the routing and work on routing the LEDs, which are in a bit of a weird spot, so it'll probably take a little while.
 ### Time today: 1 hour
 ### Total time: 1 hour
+
+# October 7, 2026 - Routing the PCB
+
+I went back and looked at some of my work from last week and redid some of the routing to make everything fit better in the area around the pin headers that connect the main PCB to the side PCB and the headers that connect the 7-segment display to the main PCB. It took about half an hour, but I was able to fix some problems that had slipped my notice last week, like a pin that never got connected and a ground that was completely cut off. I also made a rough outline of the PCB's size. The finished player will be in the ballpark of 9x15x3cm, so I drew a rough approximation of that and that helped me figure out where to arrange the LEDs. 
+
+<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/c5e1031a-cd78-46e2-86ed-38bf64681cf8" />
+
+They need to be near the bottom so they shine through the tiny holes that would usually let a speaker be heard. I am not planning on adding a speaker to this as I am having a hard enough time with these LEDs though. When I went to route them, I noticed something really strange about the footprints. On two of the footprints, the pads are arranged like this:
+
+<img width="1920" height="1080" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/ae792e7b-846d-4bc4-be8a-ea924e6b5fd0" />
+
+But on the other four, they look like this:
+
+<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/72340675-ddc4-454b-a7c8-c5805c2499a0" />
+
+The 5V and GND switched places! Which is weird because they're the EXACT SAME FOOTPRINT. I CHECKED. SEVERAL TIMES. This was very confusing and I checked all the footprint tools and they said there was no difference. Extremely weird and also bad because I can't route them as it wouldn't work when I solder the actual LEDs on. I'll try again tomorrow. Maybe time will fix this bug.
+
+### Time today: 2 hours
+### Total time: 3 hours
+
