@@ -14,12 +14,13 @@ So, back to the hunt I went. It only took about ten minutes this time to find th
 <img width="1180" height="789" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/cde19b2d-11d7-473b-b2f0-07503251e8a2" />
  
 Next time, I will touch up the routing and work on routing the LEDs, which are in a bit of a weird spot, so it'll probably take a little while.
+
 ### Time today: 1 hour
 ### Total time: 1 hour
 
 # October 7, 2026 - Routing the PCB
 
-I went back and looked at some of my work from last week and redid some of the routing to make everything fit better in the area around the pin headers that connect the main PCB to the side PCB and the headers that connect the 7-segment display to the main PCB. It took about half an hour, but I was able to fix some problems that had slipped my notice last week, like a pin that never got connected and a ground that was completely cut off. I also made a rough outline of the PCB's size. The finished player will be in the ballpark of 9x15x3cm, so I drew a rough approximation of that and that helped me figure out where to arrange the LEDs. 
+I went back and looked at some of my work from last week and redid some of the routing to make everything fit better in the area around the pin headers that connect the main PCB to the side PCB and the headers that connect the 7-segment display to the main PCB. It took a while, but I was able to fix some problems that had slipped my notice last week, like a pin that never got connected and a ground that was completely cut off. Plus, I took another look at the side PCB that will have the buttons and fixed some problems there too.I also made a rough outline of the PCB's size. The finished player will be in the ballpark of 9x15x3cm, so I drew a rough approximation of that and that helped me figure out where to arrange the LEDs. 
 
 <img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/c5e1031a-cd78-46e2-86ed-38bf64681cf8" />
 
@@ -33,6 +34,28 @@ But on the other four, they look like this:
 
 The 5V and GND switched places! Which is weird because they're the EXACT SAME FOOTPRINT. I CHECKED. SEVERAL TIMES. This was very confusing and I checked all the footprint tools and they said there was no difference. Extremely weird and also bad because I can't route them as it wouldn't work when I solder the actual LEDs on. I'll try again tomorrow. Maybe time will fix this bug.
 
+*Today's update was made possible by pure hate for this issue and the desire to complain about it loudly*
+
 ### Time today: 2 hours
 ### Total time: 3 hours
+
+# October 9, 2026: Finishing the PCB
+
+I figured out the issue with the footprints - it turns out I wired the schematic wrong, mixing up the 5v and GND on two of the LEDs. It just took a fresh brain and checking the datasheet and the schematic to fix this lol. Once I got that sorted out, I was finally able route the LEDs and get everything in its place. It took some tweaking to figure out how to arrange the LEDs, but we got there in the end.
+
+<img width="1920" height="1080" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/f893dc42-74e6-4b01-b033-70feec7f66fb" />
+
+I had to make a small modification to the order of the pins on the connector that connects to the side PCB to make everything fit properly, so I also had to go back and make some changes to the side PCB (again) but it has worked really well as far as I can tell.
+
+<img width="1920" height="1080" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/901aeeae-ce4a-4a6e-aeae-92866f616ea2" />
+
+Right now, I am cautiously optimistic that this is pretty much it for the PCB design except for fixing up the silkscreen designs because I forgot to save and lost them :(. 
+ 
+<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/50f6e612-3bc0-453c-a2e1-e5f07718e502" />
+
+*Today's progress is brought to you by the album Day and Age by the Killers and also several Reese's peanut butter cups*
+
+### Time today: 1.5 hours
+### Total time: 4.5 hours
+
 
