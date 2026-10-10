@@ -58,4 +58,13 @@ Right now, I am cautiously optimistic that this is pretty much it for the PCB de
 ### Time today: 1.5 hours
 ### Total time: 4.5 hours
 
+# October 10, 2026: Back to the PCB
 
+I lied. I was not nearly done with the PCB. I went back and checked some wiring resources for the DFPlayer Mini because I wasn't sure if I was right about how I had connected the audio jack. This led me down a rabbit hole of double checking everything which led me to question how I was adding the battery. The Xiao board I'm using is capable of charging a battery and getting its power from that, so I considered changing how I was connecting the battery. However, this did not work because when I found a schematic symbol that included the battery pads it didn't work with the footprint I was using. I considered using a different footprint, but realized that if I took this path with the battery the device would have to be turned on in order to charge, which isn't ideal, and I'm tired. I'm sticking with having the battery circuit separate from the PCB and a diode to prevent issues. Now I just have to actually add the logo and then I can move on to the CAD modeling of the case.
+
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/1732bd92-0f27-4a8e-836c-09fa22c10ad7" />
+
+*Today's progress brought to you the thought of pumpkin pie tomorrow (happy Thanksgiving to my fellow Canadians)*
+
+### Time today: 2 hours
+### Total time: 6.5 hours
