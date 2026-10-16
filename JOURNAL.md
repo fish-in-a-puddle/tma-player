@@ -73,6 +73,8 @@ I lied. I was not nearly done with the PCB. I went back and checked some wiring 
 
 Finally worked up the courage to start working on the bottom part case in Fusion. I've never used Fusion before but it wasn't as hard as I thought it would be. It took a while, but I was able to use the Hackpad tutorial to get started. I apologize for the lack of detail in this update, but I didn't have time to do it when I actually finished last night and forgot to take screenshots as well. Basically, I fiddled around with the rectangle tool for a while, figured out how to make curves so I could round out the corners and managed to add some holes to put the top and bottom together. I didn't get around to extruding it and making it actually 3D, though (mostly because I was scared to exit the sketch mode).
 
+<img width="1366" height="768" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/74545eda-adac-49f0-b145-1a1304e4130a" />
+
 ### Time today: 50 minutes
 ### Total time:  7 hours and 20 minutes
 
