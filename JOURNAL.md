@@ -68,3 +68,29 @@ I lied. I was not nearly done with the PCB. I went back and checked some wiring 
 
 ### Time today: 2 hours
 ### Total time: 6.5 hours
+
+# October 15, 2026: Starting the case
+
+Finally worked up the courage to start working on the bottom part case in Fusion. I've never used Fusion before but it wasn't as hard as I thought it would be. It took a while, but I was able to use the Hackpad tutorial to get started. I apologize for the lack of detail in this update, but I didn't have time to do it when I actually finished last night and forgot to take screenshots as well. Basically, I fiddled around with the rectangle tool for a while, figured out how to make curves so I could round out the corners and managed to add some holes to put the top and bottom together. I didn't get around to extruding it and making it actually 3D, though (mostly because I was scared to exit the sketch mode).
+
+### Time today: 50 minutes
+### Total time:  7 hours and 20 minutes
+
+# October 16, 2026: Working on the case
+
+I came back to the case today and started by extruding the base to make the sides. I had to go back and forth between Fusion and Kicad a bit to get the measurements right, but I made an opening for the buttons on the side (which I will probably have to enlarge later) and an opening for the headphone jack. I made the headphone jack opening extra big because the walls of the case are 5mm thick and the headphones I plan on using have a fairly wide piece of plastic about 2mm back from the actual headphone jack, which is probably to make it easier to pull them out but in this case means there needs to be some extra space.
+
+<img width="1366" height="768" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/2492a92c-8aff-4843-9265-353fdec8d36d" />
+
+After realizing that the headphones needed extra space, I panicked about the charging port and how much space it would need. I went to AliExpress and spent a while trying to find a decent charging board and step-up module. Turns out I didn't really need to worry about that, as I belatedly realized that I could just MEASURE THE CHARGING CABLE, but I did nail down two of my sources for parts, so yay for that. 
+
+<img width="1366" height="768" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/99de0a7f-773c-4df8-8c9d-2d039ece96e2" />
+
+<img width="1366" height="768" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/4e5e5314-8828-4367-beef-5e0dfeedc6d1" />
+
+*This update brought to you by me starting season 4 of The Magnus Archives and strengthening my resolve to learn Fusion*
+
+### Time today: 1 hour
+### Total time: 8 hours and 20 minutes
+
+
