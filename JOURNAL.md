@@ -95,4 +95,14 @@ After realizing that the headphones needed extra space, I panicked about the cha
 ### Time today: 1 hour
 ### Total time: 8 hours and 20 minutes
 
+# October 20, 2026: Fixing the side PCB and working on the case
+
+Today I spent a quick half hour making a few changes to the PCB with the buttons on it and the case to accommodate it. Since my Hackpad PCB came yesterday, I realized that the keycaps need a bit more space than I thought. Now there's one extra millimeter between the footprints and another five millimeters of space in the case. So not a lot happened, but I have early morning band and a chemistry test tomorrow morning so that's it for tonight folks.
+
+<img width="1366" height="768" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/dcc4e7d8-7422-49f3-8899-81e74bc72f08" />
+
+### Time today: 30 minutes
+### Total time: 8 hours and 50 minutes
+
+
 
