@@ -104,5 +104,21 @@ Today I spent a quick half hour making a few changes to the PCB with the buttons
 ### Time today: 30 minutes
 ### Total time: 8 hours and 50 minutes
 
+# October 28, 2026: Downloading episodes, finding parts and tracking down datasheets
+
+After a busy week with no time to work on this (plus almost losing the flash drive with all my work lol) I finally got back to this project. I knew from the start that getting the audio files themselves may not be easy, but that didn't really turn out to be true. All I really had to do was install a YouTube downloader and grab the link to the official playlist. 
+
+<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/a6f15f58-7fde-4051-93d4-4ad67812e76f" />
+
+I'll have to go through the files and cut out the ads for other podcasts at the start (if you're reading this Mr Jonny Sims or Mr Alexander Newall I'm sorry. I still listen to your podcast on the app too but this is so much cooler and there's no fast-forward on the chip I'm using so I just have to cut the ads I'm sure you understand) but otherwise it's just the download time that's not to my advantage. I'll just toss the clips in Audacity or something to trim stuff and rename the files. Since there are, you know, 200 episodes each 20-30 minutes in length, the downloads are taking a while. I'm at 30% now and it's been nearly two hours so hopefully I can just leave it running overnight. While the downloads were running, I went hunting for parts and eventually datasheets and user opinions for said parts which was a bit of a rabbit hole. It turns out that the REAL DFPlayer Mini chip, YX5200-24SS, has been discontinued for a few years and it can be tough to find a suitable substitute. After going through an in-depth comparison article and tracking down a very thorough explanation on a forum that started in the year 2000, I found that the chip on the module I had been leaning towards used the YX5200-24QS which is supposed to be practically identical.
+
+<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/75cd02d2-0119-4f86-9863-fd138c9dc0a8" />
+
+Now, I don't know if the product will actually have this exact chip but it's looking like the best chance I've got at getting a module with a decent chip. The other parts were much easier, even the Seeeduino Xiao wasn't hard to find. Next up, more 3D modeling (I hate it I hate it I hate it) (I actually don't but it's kind of frustrating)
+
+*Today's update brought to you by me realizing I'm almost done of season four and that I need to lock in on this project*
+
+### Time today: 35 minutes
+### Total time: 9 hours and 25 minutes
 
 
