@@ -133,7 +133,7 @@ It took a few tries, but I think I know what I'm doing now.
 
 I'll need to add an opening for the display (which I'm considering making an OLED instead of a 7-segment display to A: make it a bit more clear what is playing and B: make it look a bit more like an actual old recorder) which should be fairly easy. I am also planning on putting the Sony symbol on the front as well, which is probably copyright infringement but really does make it look more real. Maybe I'll make up another company to put there instead. 
 
-*This entry brought to you by me getting a callback for my school musical!*
+*This entry brought to you by me getting a callback for my school musical! Yay!*
 
 ### Time today: 1 hour and 25 minutes
 ### Total time: 10 hours and 50 minutes
