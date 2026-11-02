@@ -110,7 +110,7 @@ After a busy week with no time to work on this (plus almost losing the flash dri
 
 <img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/a6f15f58-7fde-4051-93d4-4ad67812e76f" />
 
-I'll have to go through the files and cut out the ads for other podcasts at the start (if you're reading this Mr Jonny Sims or Mr Alexander Newall I'm sorry. I still listen to your podcast on the app too but this is so much cooler and there's no fast-forward on the chip I'm using so I just have to cut the ads I'm sure you understand) but otherwise it's just the download time that's not to my advantage. I'll just toss the clips in Audacity or something to trim stuff and rename the files. Since there are, you know, 200 episodes each 20-30 minutes in length, the downloads are taking a while. I'm at 30% now and it's been nearly two hours so hopefully I can just leave it running overnight. While the downloads were running, I went hunting for parts and eventually datasheets and user opinions for said parts which was a bit of a rabbit hole. It turns out that the REAL DFPlayer Mini chip, YX5200-24SS, has been discontinued for a few years and it can be tough to find a suitable substitute. After going through an in-depth comparison article and tracking down a very thorough explanation on a forum that started in the year 2000, I found that the chip on the module I had been leaning towards used the YX5200-24QS which is supposed to be practically identical.
+I'll have to go through the files and cut out the ads for other podcasts at the start (if you're reading this Mr Jonny Sims or Mr Alexander Newall I'm sorry. I still listen to your podcast on the app too but this is so much cooler and there's no fast-forward on the chip I'm using so I just have to cut the ads I'm sure you understand) but otherwise it's just the download time that's not to my advantage. I'll just toss the clips in Audacity or something to trim stuff and rename the files. Since there are, you know, 200 episodes each 20-30 minutes in length, the downloads are taking a while. I'm at 30% now and it's been nearly two hours so hopefully I can just leave it running overnight. While the downloads were running, I went hunting for parts and eventually datasheets and user opinions for said parts which was a bit of a rabbit hole. It turns out that the REAL DFPlayer Mini chip, YX5200-24SS, has been discontinued for a few years and it can be tough to find a suitable substitute. After going through an in-depth comparison article and tracking down a very thorough explanation on a forum that started in the year 2000, I found that the chip on the module I had been leaning towards was the YX5200-24QS which is supposed to be practically identical to the YX5200-24SS.
 
 <img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/75cd02d2-0119-4f86-9863-fd138c9dc0a8" />
 
@@ -121,4 +121,19 @@ Now, I don't know if the product will actually have this exact chip but it's loo
 ### Time today: 35 minutes
 ### Total time: 9 hours and 25 minutes
 
+# November 1, 2026: Nearly finished case bottom and began case top
 
+Happy Halloween guys we are back in business. I have almost finished the bottom part of the case for the project and have finally gotten up the courage to start the top. While the bottom part was pretty simple except for the openings for headphones, the micro SD card and the charging port (which are only harder because I don't know the exact measurements of the charging board relative to the PCB) but on the top part there are a lot more details, like the cassette window and the tiny holes for speakers.
+
+<img width="1366" height="768" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/29dd0d26-3fb5-4835-bc6c-ee874fa78342" />
+
+It took a few tries, but I think I know what I'm doing now.
+
+<img width="1366" height="768" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/b0718f62-5e5b-4ee2-a740-839dd0036f9e" />
+
+I'll need to add an opening for the display (which I'm considering making an OLED instead of a 7-segment display to A: make it a bit more clear what is playing and B: make it look a bit more like an actual old recorder) which should be fairly easy. I am also planning on putting the Sony symbol on the front as well, which is probably copyright infringement but really does make it look more real. Maybe I'll make up another company to put there instead. 
+
+*This entry brought to you by me getting a callback for my school musical!*
+
+### Time today: 1 hour and 25 minutes
+### Total time: 10 hours and 50 minutes
