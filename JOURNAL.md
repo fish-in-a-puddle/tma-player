@@ -137,3 +137,12 @@ I'll need to add an opening for the display (which I'm considering making an OLE
 
 ### Time today: 1 hour and 25 minutes
 ### Total time: 10 hours and 50 minutes
+
+# November 2, 2026: Editing the MP3s
+
+I decided to take a break from 3d modeling today and to start trimming the MP3 files I downloaded, renaming them and converting them to mono. The DFPlayer Mini can only play mono but the original downloads were stereo, so I fixed that. I also trimmed out the ads and Patreon shoutouts (again, sorry guys, but on this it's just the intro, episode and credits) and renamed the ones I converted properly so the DFPlayer Mini library can recognize them. I'm going to try to do ten episodes a day until I've converted everything, which will probably be accompanied by some 3d modeling most days. Gotta lock in and get this project ready to ship before the end of November!
+
+<img width="1366" height="768" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/d9fb2e06-10d2-49e6-9176-7891ad23cd73" />
+
+### Time today: 35 minutes
+### Total time: 11 hours and 25 minutes
