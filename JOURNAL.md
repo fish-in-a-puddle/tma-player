@@ -140,9 +140,20 @@ I'll need to add an opening for the display (which I'm considering making an OLE
 
 # November 2, 2026: Editing the MP3s
 
-I decided to take a break from 3d modeling today and to start trimming the MP3 files I downloaded, renaming them and converting them to mono. The DFPlayer Mini can only play mono but the original downloads were stereo, so I fixed that. I also trimmed out the ads and Patreon shoutouts (again, sorry guys, but on this it's just the intro, episode and credits) and renamed the ones I converted properly so the DFPlayer Mini library can recognize them. I'm going to try to do ten episodes a day until I've converted everything, which will probably be accompanied by some 3d modeling most days. Gotta lock in and get this project ready to ship before the end of November!
+I decided to take a break from 3d modeling today and to start trimming the MP3 files I downloaded, renaming them and converting them to mono. The DFPlayer Mini can only play mono but the original downloads were stereo, so I fixed that. I also trimmed out the ads and Patreon shoutouts (again, sorry Rusty Quill guys, but on this it's just the intro, episode and credits) and renamed the ones I converted properly so the DFPlayer Mini library can recognize them. I'm going to try to do ten episodes a day until I've converted everything, which will probably be accompanied by some 3d modeling most days. Gotta lock in and get this project ready to ship before the end of November!
 
 <img width="1366" height="768" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/d9fb2e06-10d2-49e6-9176-7891ad23cd73" />
 
 ### Time today: 35 minutes
 ### Total time: 11 hours and 25 minutes
+
+# November 3, 2026: Trimming MP3s and working on the case
+
+Back to 3d modeling hooray. Added some more holes to the top part to simulate the speaker that would be in a real tape recorder, which went smoothly. I also realized on the bus home to day that duh, I don't have to take out one of the layers when converting the MP3s to mono. After this epiphany, I went back and redid the episodes from yesterday. I forgot to turn on the timelapse for part of it, though, so I didn't record like a third of the time today.
+
+<img width="1366" height="768" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/99188a33-9c3f-464b-9d12-47e214aa3a74" />
+
+### Time today: 50 minutes
+### Total time: 12 hours and 15 minutes
+
+
