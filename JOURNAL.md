@@ -149,11 +149,21 @@ I decided to take a break from 3d modeling today and to start trimming the MP3 f
 
 # November 3, 2026: Trimming MP3s and working on the case
 
-Back to 3d modeling hooray. Added some more holes to the top part to simulate the speaker that would be in a real tape recorder, which went smoothly. I also realized on the bus home to day that duh, I don't have to take out one of the layers when converting the MP3s to mono. After this epiphany, I went back and redid the episodes from yesterday. I forgot to turn on the timelapse for part of it, though, so I didn't record like a third of the time today.
+Back to 3d modeling hooray. Added some more holes to the top part to simulate the speaker that would be in a real tape recorder, which went smoothly. I also realized on the bus home today that duh, I don't have to take out one of the layers when converting the MP3s to mono. After this epiphany, I went back and redid the episodes from yesterday. I forgot to turn on the timelapse for part of it, though, so I didn't record like a third of the time today.
 
 <img width="1366" height="768" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/99188a33-9c3f-464b-9d12-47e214aa3a74" />
 
 ### Time today: 50 minutes
 ### Total time: 12 hours and 15 minutes
 
+# November 5, 2026
+
+Ok, so I basically did exactly what I did last time. Ten episodes converted to mono, a couple rows of holes in the top of the 3d model. Not a whole lot to say, but it's coming along smoothly. Once I get past all these little holes, I think I'll have to revise the LED placement on the main PCB to make sure the light comes through in the right spot.
+
+<img width="1366" height="768" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/88e5db1e-d7cc-4494-9bee-f3fd38a89250" />
+
+*This update is brought to you by a KitKat bar. A Canadian one, not an American one. The American ones taste weird. I'm so sorry you have to live like that Americans*
+
+### Time today: 50 minutes
+### Total time: 13 hours and 5 minutes
 
