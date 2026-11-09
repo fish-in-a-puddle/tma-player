@@ -156,7 +156,7 @@ Back to 3d modeling hooray. Added some more holes to the top part to simulate th
 ### Time today: 50 minutes
 ### Total time: 12 hours and 15 minutes
 
-# November 5, 2026
+# November 5, 2026: Keep going on model and files
 
 Ok, so I basically did exactly what I did last time. Ten episodes converted to mono, a couple rows of holes in the top of the 3d model. Not a whole lot to say, but it's coming along smoothly. Once I get past all these little holes, I think I'll have to revise the LED placement on the main PCB to make sure the light comes through in the right spot.
 
@@ -166,4 +166,15 @@ Ok, so I basically did exactly what I did last time. Ten episodes converted to m
 
 ### Time today: 50 minutes
 ### Total time: 13 hours and 5 minutes
+
+# November 8, 2026: Almost finished with the top of the case!
+
+Today I finally finished the the little speaker holes and got most of the details of the tape done! I ended up having to redo the rectangle to make it look more authentic, but I was also able to find an SVG of the Sony logo. It was looking kind of plain (and directly plagiarized) though, so I added a pupil to the "o" to turn it into an eye. It looks pretty good so far, but I think I'll add some simple eyelash details for more of an effect.
+
+<img width="1366" height="768" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/31bc2f2a-1ace-416a-b1a7-349958276d29" />
+
+As you can see, it's finally starting to come together. I had quite a time trying to make the curves for the tape details, though, as I managed to forget every tool and how it worked today. Eventually the Arc tool and a good old copy-paste got the area around the wheels of the tape right. I would like to apologize in advance to people who actually know what tape recorders look like because I'm sure there are plenty of offending inaccuracies visible to a trained eye. My eye is untrained and since I have seen a Walkman in person, like, twice, a lot of nuance is probably escaping me. My main criteria is "Does it look cool?", "Does it resemble the reference vaguely?" and "Can I get away with it?". Case in point: the 0.91" OLED that will be in the blank rectangle you see on the model. It will show options on startup and what track is playing. My hope is that it will look like the little text that usually says "Featuring auto-stop technology" or "Built-in microphone" or something, but only putting the thing together will give an answer.
+
+### Time today: 1 hour and 35 minutes
+### Total time: 14 hours and 40 minutes
 
