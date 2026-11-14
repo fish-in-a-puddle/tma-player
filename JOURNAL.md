@@ -195,3 +195,15 @@ The case and PCB are both done!! I finished up with the eye details and added a 
 
 ### Time today: 1 hour and 35 minutes
 ### Total time: 16 hours and 30 minutes
+
+# November 13, 2026: Starting the code
+
+Today I started to write the code for the player! I started with getting a small fade-in fade-out animation for the LEDs down. I'm using the FastLED library for this for simplicity's sake. I also added a small "placeholder" loop in for the DFPlayer Mini code. For that, I'm using the DFPLayerMini_Fast library because, although kind of old, it's still better than the official library which is even older and much worse. I'm leaving it at that for tonight but tomorrow I'll get the OLED code started. Then I can get to the hard part - the code to let you select the season and episode you want when you turn it on. That part will probably go in the setup loop so it only runs once. If you want to go back and select a different episode, you can turn it off and on again or spam the next or previous track buttons.
+
+<img width="1366" height="768" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/b12e301c-0b40-45e9-96e5-6ee33570ec17" />
+
+*This update brought to you by my sister finding a KitKat bar with no wafer. Just solid chocolate. It was kind of weird*
+
+### Time today: 40 minutes
+### Total time: 17 hours and 10 minutes
+
