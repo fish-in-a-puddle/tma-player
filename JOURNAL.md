@@ -1,5 +1,4 @@
-# 1hr
-### October 2, 2026 - Designing the PCB
+# October 2, 2026 - Designing the PCB
 Today I spent a while working on the schematic and routing for the main PCB, which has the Xiao, DF Player Mini, headphone jack and LEDs for effect. The other PCB, with the buttons and LEDs underneath, is to be put on the side of the player to replicate the buttons on the side of a tape recorder like this one: 
 
 <img width="300" height="225" alt="3FWBAYc2eKwBWGnF" src="https://github.com/user-attachments/assets/d55ee92a-ded8-4abc-a2c2-1c8063be6f18" />
