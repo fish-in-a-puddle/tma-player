@@ -1,3 +1,7 @@
+
+// IMPORTANT: THIS CODE IS NOT YET TESTED AS I DO NOT HAVE THE PARTS YET
+// PROCEED WITH CAUTION
+
 #include <FastLED.h>
 #include <DFPlayerMini_Fast.h>
 #include <SoftwareSerial.h>
@@ -19,6 +23,7 @@ const int nextTrack = 4;
 const int pausePlay = 3;
 const int prevTrack = 2;
 const int volumeDown = 1;
+
 int isPaused;
 int selectSeason;
 int selectEpisode;
@@ -228,6 +233,8 @@ void setup() {
             display.display();
         }
     }
+
+    // Play selected episode
     currentEpisode = selectEpisode;
     myMP3.play(currentEpisode);
     isPaused = 0;
