@@ -178,3 +178,20 @@ As you can see, it's finally starting to come together. I had quite a time tryin
 ### Time today: 1 hour and 35 minutes
 ### Total time: 14 hours and 40 minutes
 
+# November 9, 2026: Adding OLED window and eye details to the 3D model
+
+Today I looked into using an OLED to display which track is playing and made a small window in the model for it. It's in the spot that would usually have text saying "Built-in microphone" or would tell you how good the playback was. One that was done, I started to add some more details to the eye in the "O" of Sony. I thought it would look better with stylized eyelashes to emphasize that it's not just an oval in a circle. Turns out the eyelashes are really hard to do and they kept looking weird or uneven. After a while, I had to just delete everything and start over simpler. Once I had a decent shape set up, I just left it alone. I'll come back to this tomorrow and finish it up.
+
+<img width="1366" height="768" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/c51bce4a-d727-4752-a901-b83760f4e07d" />
+
+### Time today: 1 hour and 15 minutes
+### Total time: 15 hours and 55 minutes
+
+# November 10, 2026: Finishing the model and PCB
+
+The case and PCB are both done!! I finished up with the eye details and added a slot for the charging board in the bottom part of the case so I can charge the battery without opening the whole thing up. I also fixed up the PCB so the LEDs will shine through the right spot in the case, which took a little while but has worked out very well. Now that the physical parts are ready, I need to write the code, which I'll try to do this weekend.
+
+<img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/846a6b07-a800-481f-9fcd-739e9822af2e" />
+
+### Time today: 1 hour and 35 minutes
+### Total time: 16 hours and 30 minutes
