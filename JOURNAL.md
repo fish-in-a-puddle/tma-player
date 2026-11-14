@@ -15,7 +15,7 @@ So, back to the hunt I went. It only took about ten minutes this time to find th
  
 Next time, I will touch up the routing and work on routing the LEDs, which are in a bit of a weird spot, so it'll probably take a little while.
 
-### Time today: 1 hour
+### Time today: 1hr
 ### Total time: 1 hour
 
 # October 7, 2026 - Routing the PCB
@@ -36,7 +36,7 @@ The 5V and GND switched places! Which is weird because they're the EXACT SAME FO
 
 *Today's update was made possible by pure hate for this issue and the desire to complain about it loudly*
 
-### Time today: 2 hours
+### Time today: 2hr
 ### Total time: 3 hours
 
 # October 9, 2026: Finishing the PCB
@@ -55,8 +55,8 @@ Right now, I am cautiously optimistic that this is pretty much it for the PCB de
 
 *Today's progress is brought to you by the album Day and Age by the Killers and also several Reese's peanut butter cups*
 
-### Time today: 1.5 hours
-### Total time: 4.5 hours
+### Time today: 1hr30min
+### Total time: 4 hours and 30 minutes
 
 # October 10, 2026: Back to the PCB
 
@@ -66,8 +66,8 @@ I lied. I was not nearly done with the PCB. I went back and checked some wiring 
 
 *Today's progress brought to you the thought of pumpkin pie tomorrow (happy Thanksgiving to my fellow Canadians)*
 
-### Time today: 2 hours
-### Total time: 6.5 hours
+### Time today: 2hrs
+### Total time: 6 hours and 30 minutes
 
 # October 15, 2026: Starting the case
 
@@ -75,7 +75,7 @@ Finally worked up the courage to start working on the bottom part case in Fusion
 
 <img width="1366" height="768" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/74545eda-adac-49f0-b145-1a1304e4130a" />
 
-### Time today: 50 minutes
+### Time today: 50min
 ### Total time:  7 hours and 20 minutes
 
 # October 16, 2026: Working on the case
@@ -92,7 +92,7 @@ After realizing that the headphones needed extra space, I panicked about the cha
 
 *This update brought to you by me starting season 4 of The Magnus Archives and strengthening my resolve to learn Fusion*
 
-### Time today: 1 hour
+### Time today: 1hr
 ### Total time: 8 hours and 20 minutes
 
 # October 20, 2026: Fixing the side PCB and working on the case
@@ -101,7 +101,7 @@ Today I spent a quick half hour making a few changes to the PCB with the buttons
 
 <img width="1366" height="768" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/dcc4e7d8-7422-49f3-8899-81e74bc72f08" />
 
-### Time today: 30 minutes
+### Time today: 30min
 ### Total time: 8 hours and 50 minutes
 
 # October 28, 2026: Downloading episodes, finding parts and tracking down datasheets
@@ -118,7 +118,7 @@ Now, I don't know if the product will actually have this exact chip but it's loo
 
 *Today's update brought to you by me realizing I'm almost done of season four and that I need to lock in on this project*
 
-### Time today: 35 minutes
+### Time today: 35min
 ### Total time: 9 hours and 25 minutes
 
 # November 1, 2026: Nearly finished case bottom and began case top
@@ -135,7 +135,7 @@ I'll need to add an opening for the display (which I'm considering making an OLE
 
 *This entry brought to you by me getting a callback for my school musical! Yay!*
 
-### Time today: 1 hour and 25 minutes
+### Time today: 1hr25min
 ### Total time: 10 hours and 50 minutes
 
 # November 2, 2026: Editing the MP3s
@@ -144,7 +144,7 @@ I decided to take a break from 3d modeling today and to start trimming the MP3 f
 
 <img width="1366" height="768" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/d9fb2e06-10d2-49e6-9176-7891ad23cd73" />
 
-### Time today: 35 minutes
+### Time today: 35min
 ### Total time: 11 hours and 25 minutes
 
 # November 3, 2026: Trimming MP3s and working on the case
@@ -153,7 +153,7 @@ Back to 3d modeling hooray. Added some more holes to the top part to simulate th
 
 <img width="1366" height="768" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/99188a33-9c3f-464b-9d12-47e214aa3a74" />
 
-### Time today: 50 minutes
+### Time today: 50min
 ### Total time: 12 hours and 15 minutes
 
 # November 5, 2026: Keep going on model and files
@@ -164,7 +164,7 @@ Ok, so I basically did exactly what I did last time. Ten episodes converted to m
 
 *This update is brought to you by a KitKat bar. A Canadian one, not an American one. The American ones taste weird. I'm so sorry you have to live like that Americans*
 
-### Time today: 50 minutes
+### Time today: 50min
 ### Total time: 13 hours and 5 minutes
 
 # November 8, 2026: Almost finished with the top of the case!
@@ -175,7 +175,7 @@ Today I finally finished the the little speaker holes and got most of the detail
 
 As you can see, it's finally starting to come together. I had quite a time trying to make the curves for the tape details, though, as I managed to forget every tool and how it worked today. Eventually the Arc tool and a good old copy-paste got the area around the wheels of the tape right. I would like to apologize in advance to people who actually know what tape recorders look like because I'm sure there are plenty of offending inaccuracies visible to a trained eye. My eye is untrained and since I have seen a Walkman in person, like, twice, a lot of nuance is probably escaping me. My main criteria is "Does it look cool?", "Does it resemble the reference vaguely?" and "Can I get away with it?". Case in point: the 0.91" OLED that will be in the blank rectangle you see on the model. It will show options on startup and what track is playing. My hope is that it will look like the little text that usually says "Featuring auto-stop technology" or "Built-in microphone" or something, but only putting the thing together will give an answer.
 
-### Time today: 1 hour and 35 minutes
+### Time today: 1hr35min
 ### Total time: 14 hours and 40 minutes
 
 # November 9, 2026: Adding OLED window and eye details to the 3D model
@@ -184,7 +184,7 @@ Today I looked into using an OLED to display which track is playing and made a s
 
 <img width="1366" height="768" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/c51bce4a-d727-4752-a901-b83760f4e07d" />
 
-### Time today: 1 hour and 15 minutes
+### Time today: 1hr15min
 ### Total time: 15 hours and 55 minutes
 
 # November 10, 2026: Finishing the model and PCB
@@ -193,7 +193,7 @@ The case and PCB are both done!! I finished up with the eye details and added a 
 
 <img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/846a6b07-a800-481f-9fcd-739e9822af2e" />
 
-### Time today: 1 hour and 35 minutes
+### Time today: 1hr35min
 ### Total time: 16 hours and 30 minutes
 
 # November 13, 2026: Starting the code
@@ -204,7 +204,7 @@ Today I started to write the code for the player! I started with getting a small
 
 *This update brought to you by my sister finding a KitKat bar with no wafer. Just solid chocolate. It was kind of weird*
 
-### Time today: 40 minutes
+### Time today: 40min
 ### Total time: 17 hours and 10 minutes
 
 # November 14, 2026: Finishing the code
@@ -217,6 +217,6 @@ Now that the project itself is ready, all I need to do is write a README, a bill
 
 *Today's report is brought to you by three video essays about nuclear semiotics and creepy road signs*
 
-### Time today: 2 hours and 20 minutes
+### Time today: 2hr20min
 ### Total time: 19 hours and 30 minutes
 
