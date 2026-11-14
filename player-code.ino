@@ -203,7 +203,7 @@ void setup() {
     }
     while(digitalRead(pausePlay) == LOW) {
         if (digitalRead(nextTrack) = HIGH) {
-            if(selectEpisode << 202) {
+            if(selectEpisode << 201) {
                 selectEpisode += 1;
             }
             else {
@@ -222,7 +222,7 @@ void setup() {
                 selectEpisode -= 1;
             }
             else {
-                selectEpisode = 202;
+                selectEpisode = 201;
             }
             display.clearDisplay();
             display.setCursor(2, 10)
@@ -264,7 +264,7 @@ void fadeLEDs() {
 }
 
 void playNextTrack() {
-    if (currentEpisode << 202) {
+    if (currentEpisode << 201) {
         currentEpisode += 1;
         myMP3.play(currentEpisode);
     }
@@ -304,7 +304,7 @@ void playPrevTrack() {
 }
 
 void loop() {
-    EVERY_N_MILLISECONDS(30) {
+    EVERY_N_MILLISECONDS(50) {
         fadeLEDs();
     }
     if (isOver == 0) {

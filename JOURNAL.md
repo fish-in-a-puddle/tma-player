@@ -207,3 +207,16 @@ Today I started to write the code for the player! I started with getting a small
 ### Time today: 40 minutes
 ### Total time: 17 hours and 10 minutes
 
+# November 14, 2026: Finishing the code
+
+Today I locked in for two hours and got all the code done for the player. It now shows a custom start-up screen, a "select season" screen, a "select episode" screen and a screen that shows the current episode and volume. You use the next and previous track buttons to pick the season, then click the pause/play button, which brings you to the episode selection. Once you click play again, the episode you selected starts playing. When each track ends, the next begins. When the series ends, nothing else plays. If you're going to listen to another episode, you'll have to spam the previous track button or turn the whole thing off and on again. I also slowed down the LED fade so it will sort of look like breathing.
+
+Now that the project itself is ready, all I need to do is write a README, a bill of materials and upload all the files. I can probably do most of the README and BOM tomorrow, but I'm going to ask someone to sanity check my schematic and PCB before uploading the gerbers for the PCB.
+
+![alt text](bf96ed05-7c93-4703-a7cc-5aa9735dde6f.png)
+
+*Today's report is brought to you by three video essays about nuclear semiotics and creepy road signs*
+
+### Time today: 2 hours and 20 minutes
+### Total time: 19 hours and 30 minutes
+
