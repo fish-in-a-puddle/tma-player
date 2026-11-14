@@ -22,6 +22,8 @@ const int volumeDown = 1;
 int isPaused;
 int selectSeason;
 int selectEpisode;
+int currentEpisode;
+int isOver = 0;
 
 CRGB leds[NUM_LEDS];
 DFPlayerMini_Fast myMP3;
@@ -68,9 +70,10 @@ void setup() {
     display.println("Select season:");
     display.setCursor(2, 20);
     display.println("Season 1");
+    display.display();
     while (digitalRead(pausePlay) == LOW) {
         if (digitalRead(nextTrack) == HIGH) {
-            if (selectSeason <= 5) {
+            if (selectSeason << 5) {
                 selectSeason += 1;
             }
             else {
@@ -83,6 +86,7 @@ void setup() {
                     display.println("Select season:");
                     display.setCursor(2, 20);
                     display.println("Season 1");
+                    display.display();
                     break;
                 case 2:
                     display.clearDisplay();
@@ -90,32 +94,36 @@ void setup() {
                     display.println("Select season:");
                     display.setCursor(2, 20);
                     display.println("Season 2");
+                    display.display();
                     break;
                 case 3:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");                        
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 3");
+                    display.display();
                     break;
                 case 4:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 4");
+                    display.display();
                     break;
                 case 5:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 5");
+                    display.display();
                     break;
                 }
         }
         if (digitalRead(prevTrack) == HIGH) {
-            if (selectSeason >= 1) {
+            if (selectSeason >> 1) {
                 selectSeason -= 1;
             }
             else {
@@ -128,6 +136,7 @@ void setup() {
                     display.println("Select season:");
                     display.setCursor(2, 20);
                     display.println("Season 1");
+                    display.display();
                     break;
                 case 2:
                     display.clearDisplay();
@@ -135,27 +144,31 @@ void setup() {
                     display.println("Select season:");
                     display.setCursor(2, 20);
                     display.println("Season 2");
+                    display.display();
                     break;
                 case 3:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");                        
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 3");
+                    display.display();
                     break;
                 case 4:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 4");
+                    display.display();
                     break;
                 case 5:
                     display.clearDisplay();
                     display.setCursor(2, 10);
                     display.println("Select season:");
                     display.setCursor(2, 20);
-                    display.println("Season 1");
+                    display.println("Season 5");
+                    display.display();
                     break;
                 }
         }
@@ -165,11 +178,57 @@ void setup() {
     display.clearDisplay();
 
     // Select episode from the season you just selected
-    while(digitalRead(pausePlay) == LOW) {
-
+    switch (selectSeason) {
+        case 1:
+            selectEpisode = 1;
+            break;
+        case 2:
+            selectEpisode = 41;
+            break;
+        case 3:
+            selectEpisode = 81;
+            break;
+        case 4:
+            selectEpisode = 121
+            break;
+        case 5:
+            selectEpisode = 161;
+            break;
     }
-    
-    myMP3.play(selectEpisode);
+    while(digitalRead(pausePlay) == LOW) {
+        if (digitalRead(nextTrack) = HIGH) {
+            if(selectEpisode << 201) {
+                selectEpisode += 1;
+            }
+            else {
+                selectEpisode = 1;
+            }
+            display.clearDisplay();
+            display.setCursor(2, 10)
+            display.println("Select episode:");
+            display.setCursor(2, 20);
+            display.print("MAG - ");
+            display.println(selectEpisode);
+            display.display();
+        }
+         if (digitalRead(prevTrack) = HIGH) {
+            if(selectEpisode >> 201) {
+                selectEpisode -= 1;
+            }
+            else {
+                selectEpisode = 201;
+            }
+            display.clearDisplay();
+            display.setCursor(2, 10)
+            display.println("Select episode:");
+            display.setCursor(2, 20);
+            display.print("MAG - ");
+            display.println(selectEpisode);
+            display.display();
+        }
+    }
+    currentEpisode = selectEpisode;
+    myMP3.play(currentEpisode);
     isPaused = 0;
 }
 
@@ -186,10 +245,31 @@ void fadeLEDs() {
     FastLed.show();
 }
 
+void playNextTrack() {
+    if (currentEpisode << 201) {
+        currentEpisode += 1;
+        myMP3.play(currentEpisode);
+    }
+    else {
+        isOver = 1;
+    }
+}
+
+void playPrevTrack() [
+    if (currentEpisode >> 1) {
+        currentEpisode -= 1;
+    }
+    else {
+        currentEpisode = 1;
+    }
+    myMP3.play(currentTrack)
+]
+
 void loop() {
     EVERY_N_MILLISECONDS(30) {
         fadeLEDs();
     }
+    if (isOver == 0) {
     if (digitalRead(pausePlay) == HIGH) {
         if (myMP3.isPlaying()) {
             myMP3.pause()
@@ -201,7 +281,20 @@ void loop() {
             isPaused = 0;
         }
     }
-    if (!myMP3.isPlaying() && isPaused == 0) {
-        myMP3.playNext();
+    if (digitalRead(nextTrack) == HIGH) {
+        playNextTrack();
     }
+    if (digitalRead(prevTrack) == HIGH) {
+        playPrevTrack();
+    }
+    if (digitalRead(volumeUp) == HIGH) {
+        myMP3.incVolume();
+    }
+    if (digitalRead(volumeDown) == HIGH) {
+        myMP3.decVolume();
+    }
+    if (!myMP3.isPlaying() && isPaused == 0) {
+        playNextTrack();
+    }
+}
 }
