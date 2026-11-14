@@ -7,6 +7,7 @@
 #define COLOR_ORDER     GRB
 
 const int pausePlay = 3;
+int isPaused;
 
 CRGB leds[NUM_LEDS];
 DFPlayerMini_Fast myMP3;
@@ -19,10 +20,11 @@ void setup() {
     myMP3.begin(mySerial, true);
     pinMode(pausePlay, INPUT);
 
-    while (digitalRead(pausePlay() == 0)) {
+    while (digitalRead(pausePlay) == 0) {
         delay(10);
     }
-    myMP3.loop(1);
+    myMP3.play(1);
+    isPaused = 0;
 }
 
 void fadeLEDs() {
@@ -45,10 +47,17 @@ void loop() {
     if (digitalRead(pausePlay) == HIGH) {
         if (myMP3.isPlaying()) {
             myMP3.pause()
+            isPaused = 1;
 
         }
         else {
             myMP3.resume();
+            isPaused = 0;
+        }
+    }
+    if (!myMP3.isPlaying()) {
+        if (isPaused == 0) {
+            myMP3.playNext();
         }
     }
 }
