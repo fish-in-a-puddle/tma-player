@@ -18,6 +18,8 @@ Next time, I will touch up the routing and work on routing the LEDs, which are i
 ### Time today: 1hr
 ### Total time: 1 hour
 
+**Total time spent: 1hr**
+
 # October 7, 2026 - Routing the PCB
 
 I went back and looked at some of my work from last week and redid some of the routing to make everything fit better in the area around the pin headers that connect the main PCB to the side PCB and the headers that connect the 7-segment display to the main PCB. It took a while, but I was able to fix some problems that had slipped my notice last week, like a pin that never got connected and a ground that was completely cut off. Plus, I took another look at the side PCB that will have the buttons and fixed some problems there too.I also made a rough outline of the PCB's size. The finished player will be in the ballpark of 9x15x3cm, so I drew a rough approximation of that and that helped me figure out where to arrange the LEDs. 
@@ -39,6 +41,8 @@ The 5V and GND switched places! Which is weird because they're the EXACT SAME FO
 ### Time today: 2hr
 ### Total time: 3 hours
 
+**Total time spent: 2hr**
+
 # October 9, 2026: Finishing the PCB
 
 I figured out the issue with the footprints - it turns out I wired the schematic wrong, mixing up the 5v and GND on two of the LEDs. It just took a fresh brain and checking the datasheet and the schematic to fix this lol. Once I got that sorted out, I was finally able route the LEDs and get everything in its place. It took some tweaking to figure out how to arrange the LEDs, but we got there in the end.
@@ -58,6 +62,8 @@ Right now, I am cautiously optimistic that this is pretty much it for the PCB de
 ### Time today: 1hr30min
 ### Total time: 4 hours and 30 minutes
 
+**Total time spent: 1hr30min**
+
 # October 10, 2026: Back to the PCB
 
 I lied. I was not nearly done with the PCB. I went back and checked some wiring resources for the DFPlayer Mini because I wasn't sure if I was right about how I had connected the audio jack. This led me down a rabbit hole of double checking everything which led me to question how I was adding the battery. The Xiao board I'm using is capable of charging a battery and getting its power from that, so I considered changing how I was connecting the battery. However, this did not work because when I found a schematic symbol that included the battery pads it didn't work with the footprint I was using. I considered using a different footprint, but realized that if I took this path with the battery the device would have to be turned on in order to charge, which isn't ideal, and I'm tired. I'm sticking with having the battery circuit separate from the PCB and a diode to prevent issues. Now I just have to actually add the logo and then I can move on to the CAD modeling of the case.
@@ -69,6 +75,8 @@ I lied. I was not nearly done with the PCB. I went back and checked some wiring 
 ### Time today: 2hrs
 ### Total time: 6 hours and 30 minutes
 
+**Total time spent: 2hrs**
+
 # October 15, 2026: Starting the case
 
 Finally worked up the courage to start working on the bottom part case in Fusion. I've never used Fusion before but it wasn't as hard as I thought it would be. It took a while, but I was able to use the Hackpad tutorial to get started. I apologize for the lack of detail in this update, but I didn't have time to do it when I actually finished last night and forgot to take screenshots as well. Basically, I fiddled around with the rectangle tool for a while, figured out how to make curves so I could round out the corners and managed to add some holes to put the top and bottom together. I didn't get around to extruding it and making it actually 3D, though (mostly because I was scared to exit the sketch mode).
@@ -77,6 +85,8 @@ Finally worked up the courage to start working on the bottom part case in Fusion
 
 ### Time today: 50min
 ### Total time:  7 hours and 20 minutes
+
+**Total time spent: 50min**
 
 # October 16, 2026: Working on the case
 
@@ -95,6 +105,8 @@ After realizing that the headphones needed extra space, I panicked about the cha
 ### Time today: 1hr
 ### Total time: 8 hours and 20 minutes
 
+**Total time spent: 1hr**
+
 # October 20, 2026: Fixing the side PCB and working on the case
 
 Today I spent a quick half hour making a few changes to the PCB with the buttons on it and the case to accommodate it. Since my Hackpad PCB came yesterday, I realized that the keycaps need a bit more space than I thought. Now there's one extra millimeter between the footprints and another five millimeters of space in the case. So not a lot happened, but I have early morning band and a chemistry test tomorrow morning so that's it for tonight folks.
@@ -103,6 +115,8 @@ Today I spent a quick half hour making a few changes to the PCB with the buttons
 
 ### Time today: 30min
 ### Total time: 8 hours and 50 minutes
+
+**Total time spent: 30min**
 
 # October 28, 2026: Downloading episodes, finding parts and tracking down datasheets
 
@@ -121,6 +135,8 @@ Now, I don't know if the product will actually have this exact chip but it's loo
 ### Time today: 35min
 ### Total time: 9 hours and 25 minutes
 
+**Total time spent: 35min**
+
 # November 1, 2026: Nearly finished case bottom and began case top
 
 Happy Halloween guys we are back in business. I have almost finished the bottom part of the case for the project and have finally gotten up the courage to start the top. While the bottom part was pretty simple except for the openings for headphones, the micro SD card and the charging port (which are only harder because I don't know the exact measurements of the charging board relative to the PCB) but on the top part there are a lot more details, like the cassette window and the tiny holes for speakers.
@@ -138,6 +154,8 @@ I'll need to add an opening for the display (which I'm considering making an OLE
 ### Time today: 1hr25min
 ### Total time: 10 hours and 50 minutes
 
+**Total time spent: 1hr25min**
+
 # November 2, 2026: Editing the MP3s
 
 I decided to take a break from 3d modeling today and to start trimming the MP3 files I downloaded, renaming them and converting them to mono. The DFPlayer Mini can only play mono but the original downloads were stereo, so I fixed that. I also trimmed out the ads and Patreon shoutouts (again, sorry Rusty Quill guys, but on this it's just the intro, episode and credits) and renamed the ones I converted properly so the DFPlayer Mini library can recognize them. I'm going to try to do ten episodes a day until I've converted everything, which will probably be accompanied by some 3d modeling most days. Gotta lock in and get this project ready to ship before the end of November!
@@ -147,6 +165,8 @@ I decided to take a break from 3d modeling today and to start trimming the MP3 f
 ### Time today: 35min
 ### Total time: 11 hours and 25 minutes
 
+**Total time spent: 35min**
+
 # November 3, 2026: Trimming MP3s and working on the case
 
 Back to 3d modeling hooray. Added some more holes to the top part to simulate the speaker that would be in a real tape recorder, which went smoothly. I also realized on the bus home today that duh, I don't have to take out one of the layers when converting the MP3s to mono. After this epiphany, I went back and redid the episodes from yesterday. I forgot to turn on the timelapse for part of it, though, so I didn't record like a third of the time today.
@@ -155,6 +175,8 @@ Back to 3d modeling hooray. Added some more holes to the top part to simulate th
 
 ### Time today: 50min
 ### Total time: 12 hours and 15 minutes
+
+**Total time spent: 50min**
 
 # November 5, 2026: Keep going on model and files
 
@@ -167,6 +189,8 @@ Ok, so I basically did exactly what I did last time. Ten episodes converted to m
 ### Time today: 50min
 ### Total time: 13 hours and 5 minutes
 
+**Total time spent: 50min**
+
 # November 8, 2026: Almost finished with the top of the case!
 
 Today I finally finished the the little speaker holes and got most of the details of the tape done! I ended up having to redo the rectangle to make it look more authentic, but I was also able to find an SVG of the Sony logo. It was looking kind of plain (and directly plagiarized) though, so I added a pupil to the "o" to turn it into an eye. It looks pretty good so far, but I think I'll add some simple eyelash details for more of an effect.
@@ -178,6 +202,8 @@ As you can see, it's finally starting to come together. I had quite a time tryin
 ### Time today: 1hr35min
 ### Total time: 14 hours and 40 minutes
 
+**Total time spent: 1hr35min**
+
 # November 9, 2026: Adding OLED window and eye details to the 3D model
 
 Today I looked into using an OLED to display which track is playing and made a small window in the model for it. It's in the spot that would usually have text saying "Built-in microphone" or would tell you how good the playback was. One that was done, I started to add some more details to the eye in the "O" of Sony. I thought it would look better with stylized eyelashes to emphasize that it's not just an oval in a circle. Turns out the eyelashes are really hard to do and they kept looking weird or uneven. After a while, I had to just delete everything and start over simpler. Once I had a decent shape set up, I just left it alone. I'll come back to this tomorrow and finish it up.
@@ -187,6 +213,8 @@ Today I looked into using an OLED to display which track is playing and made a s
 ### Time today: 1hr15min
 ### Total time: 15 hours and 55 minutes
 
+**Total time spent: 1hr15min**
+
 # November 10, 2026: Finishing the model and PCB
 
 The case and PCB are both done!! I finished up with the eye details and added a slot for the charging board in the bottom part of the case so I can charge the battery without opening the whole thing up. I also fixed up the PCB so the LEDs will shine through the right spot in the case, which took a little while but has worked out very well. Now that the physical parts are ready, I need to write the code, which I'll try to do this weekend.
@@ -195,6 +223,8 @@ The case and PCB are both done!! I finished up with the eye details and added a 
 
 ### Time today: 1hr35min
 ### Total time: 16 hours and 30 minutes
+
+**Total time spent: 1hr35min**
 
 # November 13, 2026: Starting the code
 
@@ -206,6 +236,8 @@ Today I started to write the code for the player! I started with getting a small
 
 ### Time today: 40min
 ### Total time: 17 hours and 10 minutes
+
+**Total time spent: 40min**
 
 # November 14, 2026: Finishing the code
 
@@ -219,4 +251,6 @@ Now that the project itself is ready, all I need to do is write a README, a bill
 
 ### Time today: 2hr20min
 ### Total time: 19 hours and 30 minutes
+
+**Total time spent: 2hr20min**
 
