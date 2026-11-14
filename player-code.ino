@@ -1,6 +1,12 @@
 #include <FastLED.h>
 #include <DFPlayerMini_Fast.h>
 #include <SoftwareSerial.h>
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#define SCREEN_WIDTH    128
+#define SCREEN_HEIGHT   32
 #define LED_PIN   6  
 #define NUM_LEDS   11
 #define LED_TYPE    SK6812
