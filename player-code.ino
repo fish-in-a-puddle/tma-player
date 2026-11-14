@@ -55,9 +55,7 @@ void loop() {
             isPaused = 0;
         }
     }
-    if (!myMP3.isPlaying()) {
-        if (isPaused == 0) {
-            myMP3.playNext();
-        }
+    if (!myMP3.isPlaying() && isPaused == 0) {
+        myMP3.playNext();
     }
 }
