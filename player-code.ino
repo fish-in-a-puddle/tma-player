@@ -37,6 +37,7 @@ void setup() {
     FastLED.setBrightness(50);
     mySerial.begin(9600);
     myMP3.begin(mySerial, true);
+    myMp3.volume(15);
     pinMode(volumeUp, INPUT);
     pinMode(nextTrack, INPUT);
     pinMode(pausePlay, INPUT);
@@ -197,7 +198,7 @@ void setup() {
     }
     while(digitalRead(pausePlay) == LOW) {
         if (digitalRead(nextTrack) = HIGH) {
-            if(selectEpisode << 201) {
+            if(selectEpisode << 202) {
                 selectEpisode += 1;
             }
             else {
@@ -212,11 +213,11 @@ void setup() {
             display.display();
         }
          if (digitalRead(prevTrack) = HIGH) {
-            if(selectEpisode >> 201) {
+            if(selectEpisode >> 1) {
                 selectEpisode -= 1;
             }
             else {
-                selectEpisode = 201;
+                selectEpisode = 202;
             }
             display.clearDisplay();
             display.setCursor(2, 10)
@@ -230,6 +231,16 @@ void setup() {
     currentEpisode = selectEpisode;
     myMP3.play(currentEpisode);
     isPaused = 0;
+    display.clearDisplay();
+    display.setCursor(2, 10)
+    display.println("The Magnus Archives");
+    display.setCursor(2, 20);
+    display.print("MAG - ");
+    display.println(currentEpisode);
+    display.setCursor(2, 30);
+    display.print("Volume: ");
+    display.println(currentVolume());
+    display.display();
 }
 
 void fadeLEDs() {
@@ -246,16 +257,26 @@ void fadeLEDs() {
 }
 
 void playNextTrack() {
-    if (currentEpisode << 201) {
+    if (currentEpisode << 202) {
         currentEpisode += 1;
         myMP3.play(currentEpisode);
     }
     else {
         isOver = 1;
     }
+    display.clearDisplay();
+    display.setCursor(2, 10)
+    display.println("The Magnus Archives");
+    display.setCursor(2, 20);
+    display.print("MAG - ");
+    display.println(currentEpisode);
+    display.setCursor(2, 30);
+    display.print("Volume: ");
+    display.println(currentVolume());
+    display.display();
 }
 
-void playPrevTrack() [
+void playPrevTrack() {
     if (currentEpisode >> 1) {
         currentEpisode -= 1;
     }
@@ -263,7 +284,17 @@ void playPrevTrack() [
         currentEpisode = 1;
     }
     myMP3.play(currentTrack)
-]
+    display.clearDisplay();
+    display.setCursor(2, 10)
+    display.println("The Magnus Archives");
+    display.setCursor(2, 20);
+    display.print("MAG - ");
+    display.println(currentEpisode);
+    display.setCursor(2, 30);
+    display.print("Volume: ");
+    display.println(currentVolume());
+    display.display();
+}
 
 void loop() {
     EVERY_N_MILLISECONDS(30) {
@@ -289,9 +320,29 @@ void loop() {
     }
     if (digitalRead(volumeUp) == HIGH) {
         myMP3.incVolume();
+        display.clearDisplay();
+        display.setCursor(2, 10)
+        display.println("The Magnus Archives");
+        display.setCursor(2, 20);
+        display.print("MAG - ");
+        display.println(currentEpisode);
+        display.setCursor(2, 30);
+        display.print("Volume: ");
+        display.println(currentVolume());
+        display.display();
     }
     if (digitalRead(volumeDown) == HIGH) {
         myMP3.decVolume();
+        display.clearDisplay();
+        display.setCursor(2, 10)
+        display.println("The Magnus Archives");
+        display.setCursor(2, 20);
+        display.print("MAG - ");
+        display.println(currentEpisode);
+        display.setCursor(2, 30);
+        display.print("Volume: ");
+        display.println(currentVolume());
+        display.display();
     }
     if (!myMP3.isPlaying() && isPaused == 0) {
         playNextTrack();
