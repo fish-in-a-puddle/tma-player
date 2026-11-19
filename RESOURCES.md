@@ -13,6 +13,7 @@
 
 - FastLED library examples: https://github.com/FastLED/FastLED/blob/master/cookbook/basic-patterns/animations.md
 - DFPlayerMini_Fast library example: https://github.com/PowerBroker2/DFPlayerMini_Fast/blob/master/examples/example/example.ino
+- Adafruit SSD1306 OLED library: https://github.com/adafruit/Adafruit_SSD1306
 
 # Audio files
 - YouTube downloader/mp3 converter for Windows: https://apps.microsoft.com/detail/xpffdcd2ps6dgh?hl=en-US&gl=CA
