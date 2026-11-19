@@ -220,3 +220,11 @@ Now that the project itself is ready, all I need to do is write a README, a bill
 ### Time today: 2 hours and 20 minutes
 ### Total time: 19 hours and 30 minutes
 
+# November 17, 2026: Testing the OLED code
+
+I got a nice surprise this weekend when I realized I got the exact same OLED that I'm using in this project with my Hackpad kit, so I decided to quickly test the code for the menu. It works great, and it only took an hour or so to do. However, as I was putting together some of the other Hackpad stuff, I realized that I have made a mistake on the side PCB. The LEDs can't actually go directly underneath the keys because of where the switch anchors to the board, so I'll have to move those over a little.
+
+![Testing the OLED](PXL_20261116_180321037.jpg)
+
+### Time today: 1 hour
+### Total time: 20 hours and 30 minutes
