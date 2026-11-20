@@ -265,3 +265,15 @@ I got a nice surprise this weekend when I realized I got the exact same OLED tha
 
 **Total time spent: 1hr**
 
+# Novemeber 19, 2026: Fixing PCBs and writing README 
+
+Today I went back and did another dummy check of the PCBs and lo and behold, some more stupid mistakes. I do think these are the last of it, though. I double checked size and placement for everything and moved the LEDS over a bit so they don't interfere with the keyswitches. 
+
+![Fixing the side PCB](90f89a38-987b-46df-a685-6c5e36e8779e.png)
+
+I also started writing the README to get ready to ship. The assembly instructions are almost done, so I'm going to try to finish it this weekend. It's going to be a very busy weekend but hopefully I can at least finish the README and the BOM.
+
+### Time today: 3 hours
+### Total time: 23 hours and 30 minutes
+
+**Total time spent: 3hrs**
