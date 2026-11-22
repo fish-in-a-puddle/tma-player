@@ -245,7 +245,7 @@ Today I locked in for two hours and got all the code done for the player. It now
 
 Now that the project itself is ready, all I need to do is write a README, a bill of materials and upload all the files. I can probably do most of the README and BOM tomorrow, but I'm going to ask someone to sanity check my schematic and PCB before uploading the gerbers for the PCB.
 
-![alt text](bf96ed05-7c93-4703-a7cc-5aa9735dde6f.png)
+![alt text](<Images/bf96ed05-7c93-4703-a7cc-5aa9735dde6f.png>)
 
 *Today's report is brought to you by three video essays about nuclear semiotics and creepy road signs*
 
@@ -258,7 +258,7 @@ Now that the project itself is ready, all I need to do is write a README, a bill
 
 I got a nice surprise this weekend when I realized I got the exact same OLED that I'm using in this project with my Hackpad kit, so I decided to quickly test the code for the menu. It works great, and it only took an hour or so to do. However, as I was putting together some of the other Hackpad stuff, I realized that I have made a mistake on the side PCB. The LEDs can't actually go directly underneath the keys because of where the switch anchors to the board, so I'll have to move those over a little.
 
-![Testing the OLED](PXL_20261116_180321037.jpg)
+![Testing the OLED](<Images/PXL_20261116_180321037.jpg>)
 
 ### Time today: 1 hour
 ### Total time: 20 hours and 30 minutes
@@ -269,7 +269,7 @@ I got a nice surprise this weekend when I realized I got the exact same OLED tha
 
 Today I went back and did another dummy check of the PCBs and lo and behold, some more stupid mistakes. I do think these are the last of it, though. I double checked size and placement for everything and moved the LEDS over a bit so they don't interfere with the keyswitches. 
 
-![Fixing the side PCB](90f89a38-987b-46df-a685-6c5e36e8779e.png)
+![Fixing the side PCB](<Images/90f89a38-987b-46df-a685-6c5e36e8779e.png>)
 
 I also started writing the README to get ready to ship. The assembly instructions are almost done, so I'm going to try to finish it this weekend. It's going to be a very busy weekend but hopefully I can at least finish the README and the BOM.
 
@@ -281,8 +281,8 @@ I also started writing the README to get ready to ship. The assembly instruction
 # November 22, 2026: Writing the Bill of Materials
 
 A pretty boring day, just some AliExpress hide-and-seek with a side of copying links into a csv file. It took longer than I expected to find a decent shipping price for a pack of resistors, but that's how it goes. Oh, and I also made an opening in the case for the on/off switch, which I was able to find the exact dimensions of. Thanks, thoughtful AliExpress vendor.
-![Updated openings for inputs and outputs](<Screenshot (74).png>)
-![Bill of Materials progress](<Screenshot (73).png>)
+![Updated openings for inputs and outputs](<Images/Screenshot (74).png>)
+![Bill of Materials progress](<Images/Screenshot (73).png>)
 
 *Today's update brought to you by Lemon Demon. What is he even singing about? I don't know, but it sounds good*
 
