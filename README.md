@@ -2,7 +2,14 @@
 
 *add image here*
 
-
+![Side view of the full model](<Images/Screenshot (78).png>) 
+![Top view of the full model](<Images/Screenshot (79).png>) 
+![3D preview of side PCB](<Images/Screenshot (80).png>) 
+![PCB design for side PCB](<Images/Screenshot (81).png>) 
+![PCB design for top PCB](<Images/Screenshot (82).png>) 
+![3D preview of main PCB](<Images/Screenshot (83).png>) 
+![Schematic for main PCB](<Images/Screenshot (84).png>) 
+![Schematic for side PCB](<Images/Screenshot (85).png>)
 ## What it is
 
 An ESP32-based MP3 player designed to look like a handheld tape recorder like the one used in the podcast "The Magnus Archives" containing every episode of the podcast. It uses a DFPlayer Mini module to play the audio and 11 SK6812E LEDs to add green lighting under the control buttons and "speaker" grill. A 0.91" OLED display allows you to select which episode you would like to listen to and shows what's playing.
@@ -15,11 +22,11 @@ I started listening to The Magnus Archives, a horror podcast that tells the stor
 
 Assembling the hardware itself should not be difficult. Once you have all the parts (as listed in Bill of Materials below) you will simply have to solder them onto their respective PCBs. To connect the two PCBs, you will need to take nine female-to-female jumper wires and connect each pin on the main PCB to its mate (5v to 5v, GND to GND, DIN to DIN, etc.). To connect the OLED screen to the main PCB, take four more female-to-female jumper wires and connect the pins of the display to the pin headers on the PCB as shown:
 
-*add wiring diagram*
+![OLED wiring diagram](<Images/Screenshot (88).png>)
 
 You will also need to wire the battery, charging board, step-up module and on/off switch as shown. These parts will be arranged in the case later, so it's important not to make the wires too short or too long.
 
-*add wiring diagram*
+![Battery wiring diagram](<Images/Screenshot (87).png>)
 
 Before putting the whole thing together, you will need to flash the firmware to the ESP32, as it will not be accessible when the main PCB is in the case. To flash the code, you will need to have the Arduino IDE installed (download the latest version [here](https://www.arduino.cc/en/software/)). You will also need to have the "esp32" board pack and a few useful libraries installed, which is very easy to do. Just go to "Boards" and search "esp32" and click install on the pack. Make sure that you select the pack with the title in all lowercase. To download the libraries, go the "Libraries" and install these libraries:
 
@@ -59,3 +66,20 @@ Back to the hardware! 3D print the top and bottom of the case and and place the 
 |Parts total:               | $58.62 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |           |              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |           |              |                                                  |       |
 |Shipping total:            | $24.80 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |           |              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |           |              |                                                  |       |
 |Final total:               | $83.42 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |           |              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |           |              |                                                  |       |
+
+
+## Credits
+
+References, libraries and Kicad footprints I used to make this project
+
+- Seeeduino Xiao ESP-32-C3 Kicad footprint - https://gitlab.fabcloud.org/ricardo.marques/kicad/-/blob/master/fab.pretty/SeeedStudio_XIAO_ESP32C3.kicad_mod
+- Seeeduino Xiao ESP-32-C3 Kicad symbol - https://github.com/VectorSpaceHQ/XIAO_ESP32C3/blob/main/xiao_esp32c3.kicad_sym 
+- DFPlayer Mini Kicad footprint - https://github.com/MrChunckuee-Electronics/KiCad_Libraries/blob/master/footprints/MCE_Modules.pretty/DFPlayer_MiniMP3.kicad_mod
+- DFPlayer Mini Kicad schematic symbol - https://github.com/MrChunckuee-Electronics/KiCad_Libraries/blob/master/symbols/MCE_Modules.kicad_sym
+- DFPlayer Mini wiring - https://reprage.com/posts/2018-05-08-dfplayer-mini-cheat-sheet/, https://www.reddit.com/r/arduino/comments/1n1itlh/getting_nothing_out_of_dfplayer/, https://www.printed-droid.com/kb/dfplayer-mini-guide/
+- FastLED library examples: https://github.com/FastLED/FastLED/blob/master/cookbook/basic-patterns/animations.md
+- DFPlayerMini_Fast library example: https://github.com/PowerBroker2/DFPlayerMini_Fast/blob/master/examples/example/example.ino
+- Adafruit SSD1306 OLED library: https://github.com/adafruit/Adafruit_SSD1306
+- YouTube downloader/mp3 converter for Windows: https://apps.microsoft.com/detail/xpffdcd2ps6dgh?hl=en-US&gl=CA
+- The Magnus Archives full series on YouTube: https://www.youtube.com/playlist?list=PLSbuB1AyaJk8zTF3nE2KRxuixG_A5gBKJ
+- Cherry MX keycap for model: https://www.printables.com/model/118708-simple-cherry-mx-keycap/files 
