@@ -1,16 +1,13 @@
 # The Magnus Archives-themed Podcast Player
 
-*add image here*
+*a project by fish-in-a-puddle*
 
-![Side view of the full model](<Images/Screenshot (78).png>) 
 ![Top view of the full model](<Images/Screenshot (79).png>) 
-![3D preview of side PCB](<Images/Screenshot (80).png>) 
 ![PCB design for side PCB](<Images/Screenshot (81).png>) 
-![PCB design for top PCB](<Images/Screenshot (82).png>) 
-![3D preview of main PCB](<Images/Screenshot (83).png>) 
+![PCB design for top PCB](<Images/Screenshot (82).png>)  
 ![Schematic for main PCB](<Images/Screenshot (84).png>) 
 ![Schematic for side PCB](<Images/Screenshot (85).png>)
-## What it is
+
 
 An ESP32-based MP3 player designed to look like a handheld tape recorder like the one used in the podcast "The Magnus Archives" containing every episode of the podcast. It uses a DFPlayer Mini module to play the audio and 11 SK6812E LEDs to add green lighting under the control buttons and "speaker" grill. A 0.91" OLED display allows you to select which episode you would like to listen to and shows what's playing.
 
@@ -82,4 +79,4 @@ References, libraries and Kicad footprints I used to make this project
 - Adafruit SSD1306 OLED library: https://github.com/adafruit/Adafruit_SSD1306
 - YouTube downloader/mp3 converter for Windows: https://apps.microsoft.com/detail/xpffdcd2ps6dgh?hl=en-US&gl=CA
 - The Magnus Archives full series on YouTube: https://www.youtube.com/playlist?list=PLSbuB1AyaJk8zTF3nE2KRxuixG_A5gBKJ
-- Cherry MX keycap for model: https://www.printables.com/model/118708-simple-cherry-mx-keycap/files 
+- Cherry MX keycap used for model: https://www.printables.com/model/118708-simple-cherry-mx-keycap/files 
