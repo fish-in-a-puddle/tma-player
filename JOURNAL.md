@@ -283,3 +283,10 @@ I also started writing the README to get ready to ship. The assembly instruction
 A pretty boring day, just some AliExpress hide-and-seek with a side of copying links into a csv file. It took longer than I expected to find a decent shipping price for a pack of resistors, but that's how it goes. Oh, and I also made an opening in the case for the on/off switch, which I was able to find the exact dimensions of. Thanks, thoughtful AliExpress vendor.
 ![Updated openings for inputs and outputs](<Screenshot (74).png>)
 ![Bill of Materials progress](<Screenshot (73).png>)
+
+*Today's update brought to you by Lemon Demon. What is he even singing about? I don't know, but it sounds good*
+
+### Time today: 1 hour and 20 minutes
+### Total time: 24 hours and 50 minutes
+
+**Total time spent: 1hr20min**
