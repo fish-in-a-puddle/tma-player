@@ -293,7 +293,7 @@ A pretty boring day, just some AliExpress hide-and-seek with a side of copying l
 
 **Total time spent: 1hr20min**
 
-## November 23, 2026: Shipping prep
+# November 23, 2026: Shipping prep
 
 Today I updated the Bill of Materials with PCB details and kept working on the README. I also took some screenshots and uploaded the models. All that's left before I can submit for review is to upload the PCB files in an editable format, plus the gerbers. The finish line is in sight.
 
