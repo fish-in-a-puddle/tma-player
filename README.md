@@ -3,8 +3,7 @@
 *a project by fish-in-a-puddle*
 
 ![Top view of the full model](<Images/Screenshot (79).png>) 
-
-![PCB design for side PCB](<Images/Screenshot (81).png>) 
+   ![PCB design for side PCB](<Images/Screenshot (81).png>) 
 
 ![PCB design for top PCB](<Images/Screenshot (82).png>)
 
