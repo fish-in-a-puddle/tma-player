@@ -293,11 +293,26 @@ A pretty boring day, just some AliExpress hide-and-seek with a side of copying l
 
 **Total time spent: 1hr20min**
 
-# November 3, 2026: Shipping prep
+## November 23, 2026: Shipping prep
 
 Today I updated the Bill of Materials with PCB details and kept working on the README. I also took some screenshots and uploaded the models. All that's left before I can submit for review is to upload the PCB files in an editable format, plus the gerbers. The finish line is in sight.
 
 ![The full demo model](<Images/Screenshot (77).png>)
 
-### Time spent today: 1 hour 30 minutes
+### Time today: 1 hour 30 minutes
 ### Total time: 25 hours and 50 minutes
+
+**Total time spent: 1hr30min**
+
+# November 24, 2026: Final touches
+
+Today, after two months of on-and-off work, I am finally ready to submit the "The Magnus Archives"-themed podcast player for review. I finished uploading the files for the PCBs in editable formats and made a "Quick Assembly" folder containing everything you need to make the project exactly how I've designed it (which I will be doing once I get the funding).
+
+![All the sorted files in the repository](<Images/Screenshot (89).png>)
+
+This project has taught me a lot, especially about time management. I learned to plan to take more time than I thought I'd need in order to get the details right and to keep a record of what I've been doing to be able to prove that it's human-made. I took my first steps into using Fusion for 3d modelling and wrote the biggest piece of code that I've ever written for Arduino. More than that, I learned to step back and take a break when I needed it (who knew that actually resting when you're sick instead of staying home and working on something else helps you get better?). I can't wait to build this and share what interesting new problems come up then.
+
+### Time today: 45 minutes
+### Total time: 26 hours and 35 minutes
+
+**Total time spent: 45min**
