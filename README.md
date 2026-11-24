@@ -11,6 +11,8 @@
 
 An ESP32-based MP3 player designed to look like a handheld tape recorder like the one used in the podcast "The Magnus Archives" containing every episode of the podcast. It uses a DFPlayer Mini module to play the audio and 11 SK6812E LEDs to add green lighting under the control buttons and "speaker" grill. A 0.91" OLED display allows you to select which episode you would like to listen to and shows what's playing.
 
+**No AI was used in making of this project**
+
 ## Why I made this project
 
 I started listening to The Magnus Archives, a horror podcast that tells the story through a series of tape recordings, a few months ago. Throughout the series, the tape recorders almost became characters of their own and I couldn't shake the idea of listening to the story on a replica of one. The hardest part of the project was definitely 3D-modeling the case itself, but I learned a lot about using Fusion, as well as designing PCBs.

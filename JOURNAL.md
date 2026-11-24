@@ -281,7 +281,9 @@ I also started writing the README to get ready to ship. The assembly instruction
 # November 22, 2026: Writing the Bill of Materials
 
 A pretty boring day, just some AliExpress hide-and-seek with a side of copying links into a csv file. It took longer than I expected to find a decent shipping price for a pack of resistors, but that's how it goes. Oh, and I also made an opening in the case for the on/off switch, which I was able to find the exact dimensions of. Thanks, thoughtful AliExpress vendor.
+
 ![Updated openings for inputs and outputs](<Images/Screenshot (74).png>)
+
 ![Bill of Materials progress](<Images/Screenshot (73).png>)
 
 *Today's update brought to you by Lemon Demon. What is he even singing about? I don't know, but it sounds good*
@@ -290,3 +292,12 @@ A pretty boring day, just some AliExpress hide-and-seek with a side of copying l
 ### Total time: 24 hours and 50 minutes
 
 **Total time spent: 1hr20min**
+
+# November 3, 2026: Shipping prep
+
+Today I updated the Bill of Materials with PCB details and kept working on the README. I also took some screenshots and uploaded the models. All that's left before I can submit for review is to upload the PCB files in an editable format, plus the gerbers. The finish line is in sight.
+
+![The full demo model](<Images/Screenshot (77).png>)
+
+### Time spent today: 1 hour 30 minutes
+### Total time: 25 hours and 50 minutes
